@@ -1,0 +1,7 @@
+# Device menu items definition
+entity.device.collection:
+  title: 'Device'
+  route_name: entity.device.collection
+  description: 'List Device'
+  parent: system.admin_structure
+

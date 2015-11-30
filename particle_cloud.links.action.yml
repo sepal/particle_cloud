@@ -1,0 +1,6 @@
+entity.device.add_form:
+  route_name: 'entity.device.add_form'
+  title: 'Add Device'
+  appears_on:
+    - entity.device.collection
+

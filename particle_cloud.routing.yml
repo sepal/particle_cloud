@@ -1,0 +1,42 @@
+
+# Device routing definition
+entity.device.collection:
+  path: '/admin/structure/device'
+  defaults:
+    _entity_list: 'device'
+    _title: 'Device'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+entity.device.add_form:
+  path: '/admin/structure/device/add'
+  defaults:
+    _entity_form: 'device.add'
+    _title: 'Add Device'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+entity.device.edit_form:
+  path: '/admin/structure/device/{device}'
+  defaults:
+    _entity_form: 'device.edit'
+    _title: 'Edit Device'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+entity.device.delete_form:
+  path: '/admin/structure/device/{device}/delete'
+  defaults:
+    _entity_form: 'device.delete'
+    _title: 'Delete Device'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+

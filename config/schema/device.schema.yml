@@ -1,0 +1,14 @@
+particle_cloud.device.*:
+  type: config_entity
+  label: 'Device config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    particle_id:
+      type: string
