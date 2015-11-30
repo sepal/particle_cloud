@@ -54,4 +54,40 @@ class Device extends ConfigEntityBase implements DeviceInterface {
    */
   protected $label;
 
+  /**
+   * The Device particle id.
+   */
+  protected $particleId;
+
+  /**
+   * The Device type.
+   */
+  protected $type;
+
+  public function getLabel() {
+    return $this->label;
+  }
+
+  public function getId() {
+    return $this->id;
+  }
+  public function getParticleId() {
+    return $this->particleId;
+  }
+
+  public function getType() {
+    return $this->type;
+  }
+
+  public function setId($id) {
+  }
+
+  public function setLabel($label) {
+  }
+
+  public function setParticleId($id) {
+  }
+
+  public function setType($type) {
+  }
 }

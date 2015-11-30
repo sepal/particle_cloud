@@ -12,3 +12,7 @@ particle_cloud.device.*:
       type: string
     particle_id:
       type: string
+      label: "Particle ID"
+    type:
+      type: string
+      label: "Type"

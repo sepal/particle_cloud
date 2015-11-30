@@ -15,4 +15,15 @@ use Drupal\Core\Config\Entity\ConfigEntityInterface;
 interface DeviceInterface extends ConfigEntityInterface {
   // Add get/set methods for your configuration properties here.
 
+  public function getLabel();
+  public function setLabel($label);
+
+  public function getId();
+  public function setId($id);
+
+  public function getParticleId();
+  public function setParticleId($id);
+
+  public function getType();
+  public function setType($type);
 }
