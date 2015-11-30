@@ -1,0 +1,14 @@
+{
+  "name": "drupal/particle_cloud",
+  "type": "drupal-module",
+  "description": "Particle cloud (particle.io) integration.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/particle_cloud",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/particle_cloud",
+    "source": "http://cgit.drupalcode.org/particle_cloud"
+  },
+  "require": { }
+}
